@@ -1,0 +1,164 @@
+h1 {
+    color: #e785c2;
+    width: 100%; /* Set width to 100% to take up the whole wrapper */
+    text-align: center; /* Optional: Center the text within the h1 */
+    font-family: 'Crazy', cursive; 
+}
+
+@font-face {
+    font-family: 'Crazy'; /* Choose a name for your font family */
+    src: url('/Users/harley/Downloads/Bday-Party-Project/crazy_guy/Crazy Guy.ttf') format('truetype'); /* TTF format */
+    /* Add more formats if needed (e.g., .otf, .eot) */
+}
+
+@font-face {
+    font-family: 'Cute'; /* Choose a name for your font family */
+    src: url('/Users/harley/Downloads/Bday-Party-Project/cute_notes/Cute Notes.ttf') format('truetype'); /* TTF format */
+    /* Add more formats if needed (e.g., .otf, .eot) */
+}
+
+@font-face {
+    font-family: 'Bubbly'; /* Choose a name for your font family */
+    src: url('/Users/harley/Downloads/Bday-Party-Project/royal_acidbath/Royalacid_o.ttf') format('truetype'); /* TTF format */
+    /* Add more formats if needed (e.g., .otf, .eot) */
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 800px;
+    height: 677px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    position: relative;
+    background-color: #549fe0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: #9c7fc3;
+    padding: 10px;
+    margin: -20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+section {
+    margin-top: 20px;
+}
+
+.text-box {
+    /* Your existing styles for the text box */
+    background-color: #e2cbbf;
+    padding: 20px;
+    border: 2px solid #9c7fc3;
+    border-radius: 8px;
+    width: 250px;
+    margin: 50px auto;
+    margin-left: 5px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #92c282;
+}
+
+
+.text-box-link {
+    /* Add styles for the link */
+    text-decoration: none; /* Remove default underline for links */
+    color: inherit; /* Inherit text color from the parent */
+    display: inline-block; /* Ensure the link takes the size of its content */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+#right {
+    background-color: #f1b036;
+    padding: 30px;
+    float: right;
+    margin-top: -22px;
+    margin-right: -20px;
+    margin-left: 10px;
+    width: 300px;
+    height: 578px;
+}
+
+p {
+    margin-top: 10px;
+}
+
+#right p {
+    color:#e785c2;
+    margin-top: -25px;
+}
+
+#right2 {
+    margin-top: 10px;
+}
+
+#left img {
+    height: 280px;
+    width: 480px;
+    margin-left: -20px;
+    margin-top: 35px;
+    position: absolute;
+}
+    	
+a:link {
+            color: #9d84c8;
+            display: inline-block;
+            font-family: 'BUBBLY';
+    	}
+    	
+a:visited {
+    	    color: #9d84c8;
+    	}
+    	
+a:active {
+    	    color: #00ffff;
+    	}
+    	
+a:hover {
+            color: #f3b234;}
+    
+h2{
+    color: #92c282;
+    font-family: 'Bubbly';
+    font-size: 27px;
+}
+
+h3 {
+    margin-top: -10px;
+    text-align: center;
+    color: #7a0f81;
+    font-family: 'Bubbly';
+}
+
+#star {
+    position: absolute;
+    left: 450px;
+    z-index: 1;
+}
+
+p {
+    line-height: 1.6;
+    color: #e2cbbf;
+    margin: 10px;
+    margin-top:-20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
