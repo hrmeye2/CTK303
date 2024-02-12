@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #5e444f;
+  text-shadow: 2px 2px 4px #fad1e3;
+  background-color: #c793aa;
+  align-items: center;
+  
+}
+
+header {
+  background-color: #c793aa;
+  color:white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-shadow: 2px 2px 4px #5e444f;
+  font-size: 30px;
+}
+
+h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+#Layer_1 {
+  height: 350px;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.content {
+  padding: 20px;
+  background-image: url("pinkgradient.svg");
+
+
+ 
+}
+
+.sliding-svg {
+  animation: slideAnimation 2.5s forwards; /* Name of the animation, duration, and animation-fill-mode */
+  transform: translateX(600%); /* Initial position outside the viewport */
+}
+
+.sliding-svg2 {
+  animation: slideAnimation2 2.5s forwards; /* Name of the animation, duration, and animation-fill-mode */
+  transform: translateX(-100%); /* Initial position outside the viewport */
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+}
+
+
+@keyframes slideAnimation {
+  from {
+    transform: translateX(-100%); /* Slide in from left (outside the viewport) */
+  }
+  to {
+    transform: translateX(0); /* Slide to the center (inside the viewport) */
+  }
+}
+
+@keyframes slideAnimation2 {
+  from {
+    transform: translateX(500%); /* Slide in from left (outside the viewport) */
+  }
+  to {
+    transform: translateX(0); /* Slide to the center (inside the viewport) */
+  }
+}
+
